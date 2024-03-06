@@ -1,6 +1,6 @@
 #testing
 import pandas as pd
-
+#function
 def new_func(__name__):
     
     def obtain_tabular_data(file_path: str=r'C:\Users\psharma\AI_Core\Facebook_Marketplace\Products.csv', line_terminator: str=',') -> pd.DataFrame:
